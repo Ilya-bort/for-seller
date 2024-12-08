@@ -1,0 +1,2 @@
+# for-seller
+for seller

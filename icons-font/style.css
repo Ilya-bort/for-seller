@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7fwpv7');
+  src:  url('fonts/icomoon.eot?7fwpv7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7fwpv7') format('truetype'),
+    url('fonts/icomoon.woff?7fwpv7') format('woff'),
+    url('fonts/icomoon.svg?7fwpv7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-smartphone:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-phone .path1:before {
+  content: "\e901";
+  color: rgb(48, 101, 119);
+}
+.icon-phone .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+  opacity: 0.2;
+}
+.icon-phone .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-search:before {
+  content: "\e904";
+  color: #ddd;
+}
+.icon-clock:before {
+  content: "\e905";
+  color: #1a4553;
+}
+.icon-location:before {
+  content: "\e906";
+  color: #1a4553;
+}
